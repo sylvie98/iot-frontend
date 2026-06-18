@@ -7,7 +7,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const res = await axios.get("http://localhost/iot-backend/get_data.php");
+      const res = await axios.get("http://iot-backend.xo.je/get_data.php");
       setData(res.data);
     } catch (error) {
       console.log(error);
