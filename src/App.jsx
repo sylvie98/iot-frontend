@@ -29,7 +29,7 @@ function App() {
   return (
     <Container style={{ marginTop: "40px" }}>
       <Typography variant="h4" align="center" gutterBottom>
-        🌡 IoT Temperature & Humidity Dashboard
+         IoT Temperature & Humidity Dashboard
       </Typography>
 
       <Grid container spacing={3} justifyContent="center">
